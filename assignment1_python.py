@@ -3,7 +3,7 @@ from numpy.linalg import solve
 import numpy as np
 
 # Load the dataset
-df = pd.read_csv('~/Downloads/current.csv')
+df = pd.read_csv('current.csv')
 
 # Clean the DataFrame by removing the row with transformation codes
 df_cleaned = df.drop(index=0)
